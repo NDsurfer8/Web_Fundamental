@@ -1,0 +1,24 @@
+
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+}
+h2 {
+    background-color: blueviolet;
+    color: whitesmoke;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    background-color: #9fc5f8;
+    color: black;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+

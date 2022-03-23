@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+h1 {
+    background-color: rebeccapurple;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.green {
+    background-color: green;
+    color: azure;
+    font-size: 50px;
+}
+#red {
+    background-color: tomato;
+    color: bisque;
+    font-size: 50px;
+}
+* {
+    outline: 1px solid red;
+}
