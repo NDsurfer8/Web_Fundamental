@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 1000px;
+    min-height: 1000px;
+    margin: 0 auto;
+}
+
+/* end of Reset and container setup */
+/* start of nav bar */
+
+.Nav-Container{
+    background-color: black;
+    height: 60px;
+}
+.Nav-Content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+}
+/* End OF Nav-Bar */
+
+.Feed{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Main Container that holds both columns setup */
+.Col_1_2_cont{
+    display: flex;
+    /* justify-content:space-between; */
+}
+
+
+.column-L{
+    width: 300px;
+    min-height: 100px;
+}
+
+
+
+
+.col_R{
+    min-width: 400px;
+    min-height: 100px;
+}
+
+.avatar-container{
+    padding: 20px;
+    border: 3px solid   black;
+    height: 300px;
+}
+
+.inside_Profile_photo > img{
+    height: 100px;
+    align-items: center;
+}
+/* alternate way to center photo */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Avatar_info > h2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.Avatar_info > h1{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+/* first user card set up */
+
+
+
+
+
+
+
+
+
+/* wait to touch below */
+.user-card{
+    background-color: white;
+    border: 3px solid   black;
+    height: 175px;
+    width: 630px;
+    padding: 20px;
+    margin-left: 25px;
+    align-items: center;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+.someuser{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    align-items:center;
+    display: flex;
+    justify-content:space-between;
+    margin-left: 0px;
+}
+.someuser > button{
+    background-color: rgb(236, 228, 113);
+    height: 40px;
+    width: 110px;
+    box-shadow: 2px 3px black;
+}
+.P-content{
+    margin-top: 60px;
+    display: inline-block
+}
+#count{
+
+}
+.b1{
+
+}
+
+#count2{
+
+}
+.b2{
+
+}
+
+#count3{
+
+}
+.b3{
+    
+}

@@ -1,0 +1,285 @@
+/* css reset */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* creating container */
+#container{      
+    width: 1200px;  
+    min-height: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+/* start of navbar */
+.nav{
+    background-color: black;
+    height: 70px;
+    display: flex;
+
+}
+.nav-title{
+    color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 33px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(87, 198, 212);
+    margin-left: 290px;
+    margin-top: -15px;
+    border: 3px solid black;
+    position: fixed;
+    color: white;
+}
+/* end of navbar design */
+
+/* first two top boxes /columns begin */
+#main{
+    display: flex;
+}
+.left-colH{
+    background-color: rgb(87, 198, 212);
+    height: 70px;
+    width: 450px;
+padding-right: 6px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.left-colL{
+    background-color: white;
+    height: 250px;
+    width: 450px;
+    margin-left:  150px;
+    display: flex;
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+    border-bottom: 3px solid grey;
+}
+.left-colH > img{
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.left-colL > h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:lighter;
+    margin-top: 40px;
+    margin-left: 33px;
+    display: inline-block;
+}
+.left-colL > h3{    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-weight:lighter;
+    position: absolute;
+    
+}
+.left-colL > img{
+    height: 20px;
+    margin-top: 80px;
+    margin-left: 35px;
+    position: absolute;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 150px;
+display: inline-block;
+margin-left: -130px;
+margin-top: 125px;
+
+}
+#masterI{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: -295px;
+    
+}
+#gear{
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 35px;
+}
+#editp{
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: -230px;
+    text-decoration: underline;
+    color: blue;
+}
+/* end of user card */
+/* start Education */
+
+.educateH{
+    background-color: rgb(68, 67, 67);
+    height: 45px;
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-left: 6px;
+    display: flex;  
+}
+.educateH > h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    color: white;
+    font-size: large;
+}
+.educateL{
+    background-color: white;
+    height: 100px;
+    width: 450px;
+    margin-left: 150px;
+    display: flex;
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.educateL > h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;  
+    margin-top: 11px; 
+    position: absolute;
+}
+.educateL > h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;  
+    margin-top: 43px; 
+    font-weight: 16px;
+    position: absolute;
+}
+p{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-size: larger;
+}
+/* end of column 1 left side and Educate */
+/* lets do this */
+
+.right-colH{
+    background-color: rgb(68, 67, 67);
+    height: 40px;
+    width: 325px;
+    padding-left: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.right-colH > h4{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: lighter;
+    color: white;
+    position: absolute; 
+}
+.right-colL, .right-col2-L{
+    background-color: white;
+    /* height: 150px; */
+    margin-left: 20px;
+    border-right: 3px solid grey;
+    border-left: 3px solid grey;
+    border-bottom: 3px solid grey;
+    padding: 5px;
+} 
+/* icon needs to turn to a 2 */
+.right-colH > img{
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/* right-colL first person on right */
+
+.user > img{
+    height: 35px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    /* position: absolute;  */
+    display: inline-block; 
+}
+.user > h2{
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-top: 0px;
+    display: inline-block; 
+    vertical-align: top;
+    /* position: absolute;  */
+}
+#phil-name{
+    margin-right: 8px;
+}
+.accept{
+    height: 50;
+    margin-left: 200px;
+    padding-top: 20;
+}
+.close{
+    height: 50px;
+    margin-left:250px;
+}
+
+/* end */
+/* start your connections */
+.right-col2h{
+    background-color: rgb(68, 67, 67);
+    height: 50px;
+    width: 333px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.right-col2h > h4{
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: large;
+    font-weight: lighter;
+    
+}
+.right-col2h > img{
+    height: 30px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+/* end of top of your connections */
+
+
+.close{
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.accept{
+    height: 50px;
+    padding-left: 50px;
+    margin-top: 5px;
+}
+.extras{
+    background-color: white;
+    margin-left: 20px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-top-width: 0;
+}
+.extras > a{
+    color: blue;
+    font-size: 19px;
+    margin-left: -2px;
+}
+

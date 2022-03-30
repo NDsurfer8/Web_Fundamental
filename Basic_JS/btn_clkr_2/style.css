@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: beige;
+    width: 950px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* start of nav-bar */
+.nav-bar{
+    background-color: darkgrey;
+    height: 60px;
+    display: flex;
+}
+.nav-bar > h1{
+    padding: 10px;
+    padding-left: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.searchbar{
+    padding-left: 65px;
+    padding-top: 14px;
+}
+.searchbar > input{
+    margin-right: 100px;
+    width: 350px;
+    height: 30px;
+}
+.searchbar > button{
+    height: 40px;
+    width: 125px;
+    background-color: rgb(19, 121, 216);
+    color: white;
+    font-size: larger;
+}
+
+/* End of nav-bar creation */
+/* Start of colum 1 */
+/* 
+main Div for below nav bar */
+.main-body{
+    display: flex;
+}
+/* colum 1 div */
+.col-1{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+}
+
+.ninja{
+    display: flex;
+    border: 2px solid black;
+    padding: 30px;
+  
+}
+.ninja-left{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.ninja-desc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.col-2{
+    background-color: white;
+}
+.def{
+    border: 2px solid   black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

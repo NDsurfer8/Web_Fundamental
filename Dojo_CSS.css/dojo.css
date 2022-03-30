@@ -1,0 +1,75 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}     
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    background-color: whitesmoke;
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: gray;
+    border-radius: 0px;
+    border: 2px solid black;
+    margin-top: -20px;
+    margin-right: 20px;
+    height: 20px;
+    width: 80px;
+    /* display: inline-block; */
+}
+.display{
+    display: flex;
+    justify-content: end;
+}
+/* end of button stuff */
+/* how to create flexible colums */
+.row{
+    display: flex;
+}
+.col{
+    background-color: antiquewhite;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+/* flex 2 allows for it to split 2/3 */
+.col-2{
+background-color: blanchedalmond;
+flex: 2;
+padding: 20px;
+margin: 10px;
+}
+.col-3{
+    background-color: lavenderblush;
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* nave bar stuff */
+.navbar{
+    background-color: darkgrey;
+    height: 50px;
+}
+.Langiddy{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 8px;
+    padding-left: 20px;
+    
+}
+.links > li > a{
+    color: antiquewhite;
+}
+
+/* needs to have display flex / Used margin to move into navbar from bottom */
+.links{
+    margin-top: -27px;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;   
+    padding-right: 200px;
+}
+/* list-style-type: none gets rid of bulletsin list */

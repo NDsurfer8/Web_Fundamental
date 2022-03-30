@@ -1,0 +1,13 @@
+/* css reset */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* creating container */
+#container{      
+    width: 1200px;  
+    min-height: 1000px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+/* start of navbar */

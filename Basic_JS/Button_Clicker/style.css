@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    width: 950px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+/* start of nav-bar */
+.nav-bar{
+    background-color: darkgrey;
+    height: 60px;
+    display: flex;
+}
+.nav-bar > h1{
+    padding: 10px;
+    padding-left: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.searchbar{
+    padding-left: 65px;
+    padding-top: 14px;
+}
+.searchbar > input{
+    margin-right: 100px;
+    width: 350px;
+    height: 30px;
+}
+.searchbar > button{
+    height: 40px;
+    width: 125px;
+    background-color: rgb(19, 121, 216);
+    color: white;
+    font-size: larger;
+}
+
+/* End of nav-bar creation */
+
+.ninj_Main_D1{
+    display: flex;
+    background-color: white;
+    border: 3px solid   black;
+    margin-left: 0px;
+    margin-top: 25px;
+    width: 450px;
+    height: 200px;
+    position:absolute;
+    padding-right: 100px;
+    
+}
+.ninja_discript{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.pronunciation{
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    padding-right: 55px;
+}
+.pronunciation > h1{
+    font-weight: lighter;
+}
+.pronunciation > button{
+    background-color: rgb(219, 206, 22);
+    width: 90px;
+    height: 30px;
+}
+
+
+
+
+.ninj_Main_D2{
+    display: inline-block;
+    background-color: white;
+    border: 3px solid   black;
+    margin-left: 0px;
+    margin-top: 260px;
+    width: 450px;
+    padding-right: 100px;
+    height: 200px;
+}
+
+.pronunciation2{
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+
+}
+.pronunciation2> h1{
+    font-weight: lighter;
+}
+.pronunciation2 > button{
+    background-color: rgb(219, 206, 22);
+    width: 90px;
+    height: 30px;
+}
+.ninja_discript2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    margin-top: 55px;
+    vertical-align: top;
+}
+
+
+
+
+.ninja_Main_D3{
+    background-color: white;
+    border: 3px solid   black;
+    display: inline-block;
+    height: 175px;
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 25px;
+    padding-left: 57px;
+    vertical-align: top;
+}
+.youdefine > button{
+    background-color: rgb(151, 226, 141);
+    box-shadow: 2px;
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.youdefine > h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    padding: 5px;
+    font-weight: lighter;
+font-size: 30px
+}

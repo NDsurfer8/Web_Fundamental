@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Container{
+    width: 1100px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+/* end of reset */
+/* start of navbar */
+
+.Nav_Container{
+    /* display: flex; */
+    background-color: rgb(162, 202, 235);
+    height: 50px;
+}
+.Header{
+    padding: 5px;
+    padding-left: 100px;
+    color: white;
+}
+.Header > h1{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cities{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 400px;
+    margin-top: -45px;
+}
+.cities > h2 > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+/* End of Nav-Bar */
+
+.Locate_Temps{
+    display: flex;
+    justify-content:space-evenly;
+    height: 50px;
+    margin-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+.Locate_Temps > h1{
+    margin-left: 30px;
+}
+.Locate_Temps > p{
+    margin-left: 450px;
+    margin-top: 15px;
+
+}
+select{
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.rounded{
+    background-color: black;
+    height: 1px;
+    width: 920px;
+    margin-left: 102px;
+}
+/* end of line below selector */
+
+#Main-Body{
+    display: flex;
+    justify-content:space-evenly;
+}
+.column{
+    background-color: azure;
+    height: 400px;
+    width: 200px;
+    border: 1px solid   black;
+    margin-top: 20px;
+}
+
+
+
+/* end of all colums */
+
+#alert_cookies{
+
+}
+.row{
+    background-color: cornsilk;
+    min-height: 100px;
+    width: 980px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.bomb_image{
+    display: inline-block;
+}
+.bomb_image > img{
+    height: 100px;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* content */
+
+.STOP{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+.description{
+    display: inline-block;
+}
+.description > p{
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+    margin-bottom: 25px;
+    margin-left: -150px;
+}
+.accept{
+    display: flex;
+}
+.accept > button{
+    background-color: rgb(159, 198, 230);
+    height: 40px;
+    width: 100px;
+    box-shadow: 3px 5px black;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: -115px;
+}
