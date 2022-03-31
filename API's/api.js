@@ -6,4 +6,6 @@ fetch("URL TO make removeEventListenequest to")
     .catch(err => console.log(err)) // unseccusful response just incase server shut down for some reason
 
 
-
+function newcode(){
+    
+}
