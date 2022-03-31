@@ -1,1 +1,7 @@
-console.log("hello world")
+function hide(element) {
+    element.remove();
+}
+
+function turnOff(element) {
+    element.innerText = "Log out";
+}

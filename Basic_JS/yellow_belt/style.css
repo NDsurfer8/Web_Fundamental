@@ -3,8 +3,213 @@
     padding: 0;
 }
 #container{
-    background-color:antiquewhite;
+    
     width: 1200px;
     min-height: 800px;
     margin: 0 auto;
+}
+/* 
+beginning of code */
+/* start of navbar */
+
+.Nav_Container{
+    display: flex;
+    height: 70px;
+    
+}
+.Nav-Header{
+    background-color: darkseagreen;
+}
+.EasyBayheader{
+    font-weight: bolder;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Searchbar > input{
+margin-left: 200px;
+margin-top: 20px;
+height: 30px;
+width: 400px;
+border-radius: 40px;
+}
+.signin{
+    padding: 20px;
+    margin-left: 200px;
+}
+.cart{
+/* margin-left: 200px;
+margin-right: -100px; */
+}
+
+/* End of top Navbar */
+
+.Plant_Choice{
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.rounded{
+    background-color: black;
+    height: 3px;
+    width: 1195px;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 2px;
+}
+
+/* end of all the top parts */
+
+#Main_Body_Top{
+text-align: center;
+padding: 20px;
+font-size: 28px;
+
+}
+/* start of colums */
+
+
+
+.column_Container{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.column{
+    display: inline-block;
+    background-color: #62c7c7;
+    min-height: 300px;
+    min-width: 300px;
+    text-align:center:
+
+}
+
+.soothit{
+
+}
+
+.succulents2{
+    display: inline-block;
+}
+
+.discover{
+   display: inline-block;
+   width: 400px;
+}
+.discover_word{
+    display: inline-block;
+}
+.discover_word >h1{
+    color: white;
+    display: inline-block;   
+}
+.discover > p{
+    display: inline-block;
+    margin-top: -300px;
+    font-size: xxx-large;
+    color: aqua;
+}
+.discover > img{
+    margin-left: 200px;
+    margin-top: -100px;
+}
+.img1{
+    display: inline-block;
+    
+}
+.img1 > img{
+    width: 400px;
+}
+
+.column2{
+    margin-right: 100px;
+}
+.column2 > img{
+    height: 70px;
+}
+
+.discover > p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    /* font-size: x-large; */
+    text-align: left ;
+    margin-top: -200px;
+    vertical-align: top;
+
+}
+
+.aloe{
+    display: inline-block;
+}
+.aloe > h1{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    vertical-align: top;
+    margin-left: 35px;
+}
+
+.arrow2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+}
+.arrow2 >h1{
+
+}
+.arrow2 > img{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Row-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(197, 230, 233);
+    width: 1200px;
+    height: 300px;
+    margin-top: 60px;
+    
+}
+.Row-footer > div > img{
+    padding: 20px;
+    width: 150px;
+    border-radius: 100px;
+    align-items: center;
+}
+.Row-footer > div > h4{
+    text-align: center;
+}
+/* 
+End of footer */
+
+/* warning sign
+ */
+
+.warning_container{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color:white;
+    border: 3px solid   black;
+    height: 100px;
+    width: 1200px;
+    margin-top: 200px;
+}
+.warning_container > div > img{
+    height: 100px;
+}
+.warning_container > div > p{
+    font-size: xx-large;
+}
+
+.I_accept > button{
+    /* display: inline-block; */
+    background-color: khaki;
+    height: 45px;
+    width: 110px;
+    margin-right:50px;
+    margin-top: 30px;
+    box-shadow: 3px 5px black;
+
 }
